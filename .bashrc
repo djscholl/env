@@ -1,4 +1,4 @@
-export PATH=$PATH:~/bin/
+export PATH=$PATH:~/bin
 
 # Git autocomplete and prompt modification
 . ~/bin/git/contrib/completion/git-completion.bash
