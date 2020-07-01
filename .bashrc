@@ -37,3 +37,6 @@ UNDERLINE=$(tput smul)
 
 # super sexy colorful prompt
 PS1='\[${GREEN}\]\w\[${BLUE}\]$(__git_ps1 " (%s)") \$ \[${NORMAL}\]'
+
+# colorful prompt with time
+PS1='\[${CYAN}\]\w\[${MAGENTA}\]$(__git_ps1 " (%s)") \[${YELLOW}\]\D{%F %T %z}\n\[${CYAN}\]\$ \[${NORMAL}\]'
